@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.cabecalho{
+    padding: 10px 20px;
+    border: 2px solid #000000;
+}
+
+.navegacao{
+    padding: 10px 20px;
+    border: 2px solid #000000;
+}
+
+.titcent{
+    text-align: center;
+}
+
+.corpo{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border: 2px solid #000000;
+}
+.corpo h1{
+    margin-bottom: 10px
+}
+.conteudo-main {
+    display: flex;
+    gap: 10px; /* Espaço horizontal entre a section e a barra lateral */
+}
+
+.secao{
+    flex: 3; /* Ocupa 3 partes do espaço disponível (mais larga) */
+    padding: 10px 20px;
+    border: 2px solid #000000;
+}
+
+.artigo{
+    padding: 60px 60px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+}
+
+.artigoComLateral{
+    display: flex;/* Coloca o texto/h3 e o complemento lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: space-between; /* Empurra o complemento para o canto direito */
+    gap: 10px;/* Espaço entre o título e o complemento */
+    padding: 40px 40px;
+    border: 2px solid #000000;
+}
+
+.artigoComLateral h3{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+.artigo-02 h3 {
+    text-align: center; /* Centraliza o texto do título */
+    width: 100%;        /* Garante que ocupa a área atribuída antes da caixa aside */
+}
+
+.complemento{ /*DESCOBRIR COMO COLOCAR ESSA CAIXA PARA A LATERAL*/
+    padding: 40px ;
+    border: 2px solid #000000;
+    margin: -30px;
+}
+
+.lateral{ /*DESCOBRIR COMO COLOCAR ESSA CAIXA PARA A LATERAL*/
+    flex: 1; /* Ocupa 1 parte do espaço disponível (mais estreita) */
+    padding: 10px 20px;
+    margin-top: 0; /* Removemos o margin-top para alinhar no topo com a secao */
+    border: 2px solid #000000;
+}
+
+.rodape{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,31 @@
+.caixa {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 10px solid #333;
+  margin-bottom: 20px;
+  color: white;
+  font-family: sans-serif;
+  background-color: #007acc;
+}
+.caixa1{
+    box-sizing: content-box;
+    width: 400px;
+    padding: 10px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.caixa2{
+    box-sizing: border-box;
+    width: 400px;
+    padding: 10px;
+    border: 15px solid black;
+}
+/* DESAFIO:
+   1. Defina a class .caixa-1 com box-sizing: content-box; (padrão)
+   2. Defina a class .caixa-2 com box-sizing: border-box;
+   3. Abra a ferramenta de inspeção do navegador (F12 -> aba Elementos/Inspetor) 
+      e selecione cada uma para ver o "Box Model" desenhado no painel lateral.
+   4. Calcule a largura total visível de cada uma antes de conferir no painel!
+*/
